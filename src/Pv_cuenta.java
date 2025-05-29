@@ -1,8 +1,8 @@
 public class Pv_cuenta {
-    private float saldo;
-    private int numeroDepositos;
-    private int numeroRetiros;
-    private float tasaAnual;
+    protected float saldo;
+    protected int numeroDepositos;
+    protected int numeroRetiros;
+    protected float tasaAnual;
 
     public Pv_cuenta(float saldo, float tasaAnual) {
         this.saldo = saldo;
