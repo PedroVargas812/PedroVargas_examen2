@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Crear el objeto con valores fijos (saldo: 1000, tasa anual: 5%)
-        Pv_cuentaAhorros cuenta = new Pv_cuentaAhorros(500.0f, 0.05f);
+
+        Pv_cuentaAhorros cuenta = new Pv_cuentaAhorros(20.0f, 0.05f);
 
         Scanner scanner = new Scanner(System.in);
         int opcion;
